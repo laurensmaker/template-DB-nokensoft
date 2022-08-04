@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kategori</title>
+    <title>Provinsi</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -43,7 +43,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
+            <li class="nav-item ">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
@@ -53,21 +53,21 @@
             <hr class="sidebar-divider">
 
             <!-- Nav Item - Charts -->
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a class="nav-link" href="organisasi.html">
                     <i class="fas fa-fw fa-server"></i>
                     <span>Organisani</span></a>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="Kategori.html">
-                    <i class="fas fa-fw fa-th"></i>
+                    <i class="fas fa-fw fa-th fa-th"></i>
                     <span>Kategori</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="Pengguna.html">
-                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <i class="fas fa-fw fa-users"></i>
                     <span>Pengguna</span></a>
             </li>
 
@@ -89,7 +89,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <!-- <h6 class="collapse-header">Login Screens:</h6> -->
-                        <a class="collapse-item" href="Provinsi.html">Provinsi</a>
+                        <a class="collapse-item active" href="Provinsi.html">Provinsi</a>
                         <a class="collapse-item" href="Kabupaten.html">Kabupaten</a>
                         <a class="collapse-item" href="Distrik.html">Distrik</a>
                         <a class="collapse-item" href="Kelurahan.html">Kelurahan</a>
@@ -108,8 +108,8 @@
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
-             <!-- Sidebar Toggler (Sidebar) -->
-             <div class="text-center d-none d-md-inline">
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 
@@ -169,115 +169,41 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Kategori</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-primary shadow-sm"><i
-                            class="fa fa-plus mr-2" aria-hidden="true"></i>Tambah</a>
+                        <h1 class="h3 mb-0 text-gray-800">Provinsi</h1>
+                        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
                     </div>
 
                     <!-- Content Row -->
-                    <div class="card shadow mb-4">
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered " id="dataTable" width="100%" cellspacing="0">
-                                    <thead">
-                                        <tr class="text-center">
-                                            <th>No</th>
-                                            <th>Kategori</th>
-                                            <th>Opsi</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-center">1</td>
-                                                <td>Sekolah</td>
-                                                <td class="text-center">
-                                                    <a href="#" class="btn btn-info btn-circle mr-3 ">
-                                                        <i class="fa fa-magic" aria-hidden="true"></i>
-                                                    </a>
+                    <div class="row">                        
 
-                                                    <a href="#" class="btn btn-primary btn-circle mr-3">
-                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="text-center">2</td>
-                                                <td>Instasnsi Pemerintah</td>
-                                                <td class="text-center">
-                                                    <a href="#" class="btn btn-info btn-circle mr-3">
-                                                        <i class="fa fa-magic" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-primary btn-circle mr-3">
-                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">3</td>
-                                                <td>Komunitas</td>
-                                                <td class="text-center">
-                                                    <a href="#" class="btn btn-info btn-circle mr-3">
-                                                        <i class="fa fa-magic" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-primary btn-circle mr-3">
-                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">4</td>
-                                                <td>UMKM</td>
-                                                <td class="text-center">
-                                                    <a href="#" class="btn btn-info btn-circle mr-3">
-                                                        <i class="fa fa-magic" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-primary btn-circle mr-3">
-                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">5</td>
-                                                <td>LSM</td>
-                                                <td class="text-center">
-                                                    <a href="#" class="btn btn-info btn-circle mr-3">
-                                                        <i class="fa fa-magic" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-primary btn-circle mr-3">
-                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-
-                                        </tbody>
-                                </table>
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card bg-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="font-weight-bold text-white text-uppercase mb-1">
+                                                Provinsi Papua Barat</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card bg-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <a href="Provinsi-Papua.html">
+                                                <div class="font-weight-bold text-white text-uppercase mb-1">
+                                                    Provinsi Papua</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
