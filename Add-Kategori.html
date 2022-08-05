@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kategori</title>
+    <title>Tambah Kategori</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -59,7 +59,7 @@
                     <span>Organisani</span></a>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="Kategori.html">
                     <i class="fas fa-fw fa-th"></i>
                     <span>Kategori</span></a>
@@ -90,7 +90,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <!-- <h6 class="collapse-header">Login Screens:</h6> -->
                         <a class="collapse-item" href="Provinsi.html">Provinsi</a>
-                        <a class="collapse-item" href="Kabupaten.html">Kabupaten</a>
+                        <a class="collapse-item active" href="Kabupaten.html">Kabupaten</a>
                         <a class="collapse-item" href="Distrik.html">Distrik</a>
                         <a class="collapse-item" href="Kelurahan.html">Kelurahan</a>
                     </div>
@@ -169,63 +169,41 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Kategori</h1>
-                        <a href="Add-Kategori.html" class="d-none d-sm-inline-block btn btn-primary shadow-sm"><i
-                            class="fa fa-plus mr-2" aria-hidden="true"></i>Tambah</a>
+                        <h1 class="h3 mb-0 text-gray-800">KategoriTambah</h1>
+                        <a href="Kategori.html" class="d-none d-sm-inline-block btn btn-primary shadow-sm"><i class="fa fa-arrow-circle-left mr-2" aria-hidden="true"></i>Kembali</a>
                     </div>
 
                     <!-- Content Row -->
-                    <div class="card shadow mb-4">
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered " id="dataTable" width="100%" cellspacing="0">
-                                    <thead">
-                                        <tr class="text-center">
-                                            <th>No</th>
-                                            <th>Kategori</th>
-                                            <th>Opsi</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-center">1</td>
-                                                <td>Sekolah</td>
-                                                <td class="text-center">
-                                                    <a href="#" class="btn btn-info btn-circle mr-3 ">
-                                                        <i class="fa fa-magic" aria-hidden="true"></i>
-                                                    </a>
+                    <div class="col-xl-10 col-lg-12 col-md-9">
 
-                                                    <a href="#" class="btn btn-primary btn-circle mr-3">
-                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="text-center">2</td>
-                                                <td>Instasnsi Pemerintah</td>
-                                                <td class="text-center">
-                                                    <a href="#" class="btn btn-info btn-circle mr-3">
-                                                        <i class="fa fa-magic" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-primary btn-circle mr-3">
-                                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                                    </a>
-
-                                                    <a href="#" class="btn btn-danger btn-circle">
-                                                        <i class="fas fa-trash"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                </table>
+                        <div class="card o-hidden border-0 shadow-lg my-5">
+                            <div class="card-body p-0">
+                                <!-- Nested Row within Card Body -->
+                                <div class="row">                                    
+                                    <div class="col-lg">
+                                        <div class="p-5">                                            
+                                            <form class="user">
+                                                <div class="row">
+                                                    <div class="col-lg">
+                                                        <div class="form-group">
+                                                            <label for="kategori">Kategori</label>
+                                                            <input type="text" class="form-control" id="kategori">
+                                                            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                                                        </div>                                                        
+                                                        
+                                                    </div>                                                    
+                                                </div>                                               
+                                                
+                                            </form>
+                                            <hr>
+                                            <button type="button" class="btn btn-info"><i class="fa fa-plus mr-2" aria-hidden="true"></i>Tambah</button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-undo mr-2" aria-hidden="true"></i>Batal</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+        
                     </div>
 
                 </div>
